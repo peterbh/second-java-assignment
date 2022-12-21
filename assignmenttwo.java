@@ -13,10 +13,15 @@ class assignmenttwo
 
 		Scanner sc=new Scanner(System.in);
 
+		day = 0;
+
+		while (day < 10)
+
+		++day;
+
 		//tells user to input a number(int) to get a day of the week
 		System.out.println("Enter a number for a day of the week: ");
-
-        int day= sc.nextInt();
+		int day= sc.nextInt();
 
 
 			//when user types in number, its switchs to what number the user has written in
@@ -57,7 +62,3 @@ class assignmenttwo
 				}
 	}
 }
-
-
-
-
